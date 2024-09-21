@@ -41,16 +41,15 @@ kalo gagal yang di atas
 python3 main.py
 ```
 
-7.) neh kalo mau bayarin ngopi https://trakteer.id/JustPandaEver/tip (optional)
-
-
-
-
-
 ***Windows/RDP***
 
 4.) click link ini https://github.com/winsnip/moonbix/archive/refs/heads/main.zip udh itu extract
 
-6.)  edit file data.txt lalu isi aja query dan click aja  file yang namanya ```moonbix.bat```
+5.)  edit file data.txt lalu isi aja query 
 
-7.) neh kalo mau bayarin ngopi https://trakteer.id/JustPandaEver/tip (optional)
+6.)click aja file yang namanya ```moonbix.bat``` untuk run bot
+
+
+***DONASI***
+
+kalo mau bayarin kopi https://trakteer.id/JustPandaEver/tip
