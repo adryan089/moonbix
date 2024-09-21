@@ -43,6 +43,10 @@ python3 main.py
 
 7.) neh kalo mau bayarin ngopi https://trakteer.id/JustPandaEver/tip (optional)
 
+
+
+
+
 ***Windows/RDP***
 
 4.) click link ini https://github.com/winsnip/moonbix/archive/refs/heads/main.zip udh itu extract
