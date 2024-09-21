@@ -8,9 +8,17 @@
 
 4.) copas ae command di bawah buat installasi
 
-```pip install -r requirements.txt```
+```
+bash <(curl -s https://file.winsnip.xyz/file/uploads/moonbix.sh)
+```
 
-5.) buat run di bawah juga
+5.) buat edit data query commandnya di bawah, buat closenya ctrl+x trus y lalu enter aja
+
+```
+nano tokens.txt
+```
+
+6.) buat run di bawah juga
 
 ```python main.py```
 
