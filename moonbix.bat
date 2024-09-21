@@ -5,6 +5,8 @@ where python >nul 2>nul
 if %errorlevel%==0 (
     echo Python sudah terinstall.
     python -m pip install -r requirements.txt >nul 2>nul
+    notepad ./proxy.txt
+    notepad ./data.txt
     echo menjalankan script bot
     python main.py
     goto end
@@ -14,6 +16,8 @@ where python3 >nul 2>nul
 if %errorlevel%==0 (
     echo Python sudah terinstall.
     python3 -m pip install -r requirements.txt >nul 2>nul
+    notepad ./proxy.txt
+    notepad ./data.txt
     echo menjalankan script bot
     python3 main.py
     goto end
@@ -31,6 +35,8 @@ where python >nul 2>nul
 if %errorlevel%==0 (
     echo Instalasi Python berhasil.
     python -m pip install -r requirements.txt >nul 2>nul
+    notepad ./proxy.txt
+    notepad ./data.txt
     echo menjalankan script main.py
     python main.py
 ) else (
