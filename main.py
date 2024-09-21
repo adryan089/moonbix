@@ -113,7 +113,7 @@ def sleep(seconds):
 if __name__ == '__main__':
     os.system('cls' if os.name == 'nt' else 'clear')
     print_banner()
-    use_proxy = input(("Are you want to use proxy? (y/n): ")).strip().lower()
+    use_proxy = 'y'
     proxies = [line.strip() for line in open('proxy.txt')] if use_proxy == 'y' else []
     print(crayons.yellow("============================= Starting =============================="))
     while True:
