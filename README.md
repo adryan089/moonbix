@@ -18,4 +18,6 @@ kalo gagal yang di atas
 
 ```python3 main.py```
 
-16.) Done and Turu
+6.) Done and Turu
+
+7.) neh kalo mau bayarin ngopi https://trakteer.id/JustPandaEver/tip (optional)
