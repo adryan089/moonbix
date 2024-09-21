@@ -117,7 +117,7 @@ if __name__ == '__main__':
     proxies = [line.strip() for line in open('proxy.txt')] if use_proxy == 'y' else []
     print(crayons.yellow("============================= Starting =============================="))
     while True:
-        tokens = [line.strip() for line in open('tokens.txt')]
+        tokens = [line.strip() for line in open('data.txt')]
         for index, token in enumerate(tokens, start=1):
             print(crayons.magenta(f'============================= Account {index} ============================='))
             proxy = proxies[(index - 1) % len(proxies)] if proxies else None
