@@ -20,11 +20,15 @@ nano tokens.txt
 
 6.) buat run di bawah juga
 
-```python main.py```
+```
+python main.py
+```
 
 kalo gagal yang di atas
 
-```python3 main.py```
+```
+python3 main.py
+```
 
 6.) Done and Turu
 
