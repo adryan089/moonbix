@@ -4,7 +4,7 @@
 
 2.) install python kalo belom install
 
-3.) siapin proxy (optional)
+3.) siapin proxy biar lebih aman
 
 4.) copas ae command di bawah buat installasi
 
