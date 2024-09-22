@@ -52,4 +52,4 @@ python3 main.py
 
 ***DONASI***
 
-kalo mau bayarin kopi [https://trakteer.id/Winsnipsupport/tip]
+kalo mau bayarin kopi [https://trakteer.id/Winsnipsupport/tip](https://trakteer.id/Winsnipsupport/tip)
