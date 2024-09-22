@@ -144,4 +144,4 @@ if __name__ == '__main__':
             sleep(15)
 
         print(crayons.green("All accounts have been completed"))
-        sleep(3600)
+        sleep(2000)
