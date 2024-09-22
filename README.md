@@ -6,7 +6,7 @@
 
 3.) siapin proxy biar lebih aman
 
-***LINUX/VPS***
+***LINUX/VPS/TERMUX***
 
 4.) copas ae command di bawah buat installasi
 
