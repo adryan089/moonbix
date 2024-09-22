@@ -10,18 +10,19 @@ def print_banner():
     print("Join our Telegram channel: https://t.me/winsnip")
 
 
+
 class MoonBix:
     def __init__(self, token, proxy=None):
         self.session = requests.session()
         self.session.headers.update({
-            'authority': 'www.binance.com',
+            'authority': 'www.binance.info',
             'accept': '*/*',
             'accept-language': 'en-EG,en;q=0.9,ar-EG;q=0.8,ar;q=0.7,en-GB;q=0.6,en-US;q=0.5',
             'clienttype': 'web',
             'content-type': 'application/json',
             'lang': 'en',
-            'origin': 'https://www.binance.com',
-            'referer': 'https://www.binance.com/en/game/tg/moon-bix',
+            'origin': 'https://www.binance.info',
+            'referer': 'https://www.binance.info/en/game/tg/moon-bix',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
         })
         
@@ -34,7 +35,7 @@ class MoonBix:
     def login(self):
         try:
             response = self.session.post(
-                'https://www.binance.com/bapi/growth/v1/friendly/growth-paas/third-party/access/accessToken',
+                'https://www.binance.info/bapi/growth/v1/friendly/growth-paas/third-party/access/accessToken',
                 json={'queryString': self.token, 'socialType': 'telegram'},
             )
             if response.status_code == 200:
@@ -47,7 +48,7 @@ class MoonBix:
     def user_info(self):
         try:
             response = self.session.post(
-                'https://www.binance.com/bapi/growth/v1/friendly/growth-paas/mini-app-activity/third-party/user/user-info',
+                'https://www.binance.info/bapi/growth/v1/friendly/growth-paas/mini-app-activity/third-party/user/user-info',
                 json={'resourceId': 2056},
             )
             return response.json()
@@ -68,7 +69,7 @@ class MoonBix:
     def complete_game(self):
         try:
             response = self.session.post(
-                'https://www.binance.com/bapi/growth/v1/friendly/growth-paas/mini-app-activity/third-party/game/complete',
+                'https://www.binance.info/bapi/growth/v1/friendly/growth-paas/mini-app-activity/third-party/game/complete',
                 json={'resourceId': 2056, 'payload': self.game['payload'], 'log': self.game['log']},
             )
             return response.json()['success']
@@ -79,7 +80,7 @@ class MoonBix:
         try:
             while True:
                 response = self.session.post(
-                    'https://www.binance.com/bapi/growth/v1/friendly/growth-paas/mini-app-activity/third-party/game/start',
+                    'https://www.binance.info/bapi/growth/v1/friendly/growth-paas/mini-app-activity/third-party/game/start',
                     json={'resourceId': 2056},
                 )
                 self.game_response = response.json()
